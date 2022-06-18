@@ -1,0 +1,216 @@
+<!-- Add New -->
+<div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center><h4 class="modal-title" id="myModalLabel">Add New</h4></center>
+            </div>
+            <div class="modal-body">
+			<div class="container-fluid">
+			<form id="addForm">
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Last Name:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="lastname">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">First Name:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="firstname">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Middle Name:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="middlename">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Age:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="age">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Sex:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="sex">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Contact:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="contact">
+					</div>
+				</div>
+				
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Address:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="address">
+					</div>
+				</div>
+            </div> 
+			</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span> Save</a>
+			</form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Edit -->
+<div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center><h4 class="modal-title" id="myModalLabel">Edit Member</h4></center>
+            </div>
+            <div class="modal-body">
+			<div class="container-fluid">
+			<form id="editForm">
+				<input type="hidden" class="id" name="id">
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Last Name:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="lastname">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">First Name:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="firstname">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Middle Name:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="middlename">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Age:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="age">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Sex:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="sex">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Contact:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="contact">
+					</div>
+				</div>
+				
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Address:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="address">
+					</div>
+				</div>
+            </div> 
+			</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-check"></span> Update</a>
+			</form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Delete -->
+<div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center><h4 class="modal-title" id="myModalLabel">Delete Member</h4></center>
+            </div>
+            <div class="modal-body">	
+            	<p class="text-center">Are you sure you want to delete?</p>
+				<h2 class="text-center fullname"></h2>
+			</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                <button type="button" class="btn btn-danger id"><span class="glyphicon glyphicon-trash"></span> Yes</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="move" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center><h4 class="modal-title" id="myModalLabel">Move Member</h4></center>
+            </div>
+            <div class="modal-body">	
+            	<p class="text-center">Are you sure you want to move this data?</p>
+				<h2 class="text-center fullname"></h2>
+			</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                <button type="button" class="btn btn-secondary id"><span class="glyphicon glyphicon-trash"></span> Yes</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
